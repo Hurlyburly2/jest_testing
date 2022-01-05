@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.256">
+  <testsuite name="Not a real integration test!" errors="0" failures="0" skipped="0" timestamp="2022-01-05T21:54:32" time="0.216" tests="1">
+    <testcase classname="Not a real integration test! three plus three is six" name="Not a real integration test! three plus three is six" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

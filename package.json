@@ -1,0 +1,19 @@
+{
+  "name": "jest_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-smoke": "jest --group=smoke",
+    "test-integration": "jest --group=integration"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "jest": "^27.4.7",
+    "jest-junit": "^13.0.0",
+    "jest-runner-groups": "^2.1.0"
+  }
+}
