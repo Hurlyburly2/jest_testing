@@ -5,5 +5,9 @@ module.exports = {
     iiif_converter: {
         port: process.env.IIIF_CONVERTER_PORT,
         healthcheck: process.env.IIIF_CONVERTER_VERSION_ROUTE
+    },
+    iiif_validator: {
+        port: process.env.IIIF_VALIDATOR_PORT,
+        healthcheck: process.env.IIIF_VALIDATOR_VERSION_ROUTE
     }
 }

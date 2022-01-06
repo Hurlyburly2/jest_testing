@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.256">
-  <testsuite name="Not a real integration test!" errors="0" failures="0" skipped="0" timestamp="2022-01-05T21:54:32" time="0.216" tests="1">
-    <testcase classname="Not a real integration test! three plus three is six" name="Not a real integration test! three plus three is six" time="0.002">
+<testsuites name="jest tests" tests="2" failures="1" errors="0" time="0.715">
+  <testsuite name="Tests IIIF Converter Health" errors="0" failures="1" skipped="0" timestamp="2022-01-06T21:59:06" time="0.593" tests="2">
+    <testcase classname="Tests IIIF Converter Health Successful response from version route" name="Tests IIIF Converter Health Successful response from version route" time="0.128">
+    </testcase>
+    <testcase classname="Tests IIIF Validator Health Successful response from version route" name="Tests IIIF Validator Health Successful response from version route" time="0.12">
+      <failure>TypeError: Cannot read property &apos;status&apos; of undefined
+    at Object.&lt;anonymous&gt; (/Users/dougsimon/projects/jest_testing/tests/healthchecks.test.js:37:25)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
     </testcase>
   </testsuite>
 </testsuites>
